@@ -25,16 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a72864-8707-4460-be63-9dc2c5aed1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bd/intentoLogin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/respuestaLogin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlew/validoJWT.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/claim.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/ProcesoToken.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/usuario.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/usuario.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
