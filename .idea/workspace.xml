@@ -27,7 +27,28 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bd" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chcar\Go\src\github.com\chcardonat\twittor\bd" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="twittor" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/chcardonat/twittor" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,5 +72,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="196" key="#Go_Modules/0.0.1366.728@0.0.1366.728" timestamp="1599821236302" />
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599822918204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599822918204" />
+    <state width="1304" height="175" key="GridCell.Tab.0.bottom" timestamp="1599826061955">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599826061955" />
+    <state width="1304" height="175" key="GridCell.Tab.0.center" timestamp="1599826061955">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599826061955" />
+    <state width="1304" height="175" key="GridCell.Tab.0.left" timestamp="1599826061955">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599826061955" />
+    <state width="1304" height="175" key="GridCell.Tab.0.right" timestamp="1599826061955">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599826061955" />
   </component>
 </project>
