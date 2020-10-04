@@ -2,9 +2,9 @@ package routers
 
 import (
 	"encoding/json"
+	"github.com/chcardonat/twittor/bd"
 	"net/http"
 	"strconv"
-	"github.com/chcardonat/twittor/bd"
 )
 
 //LeoTweetsSeguidores lee los tweets de todos nuestros seguidores
