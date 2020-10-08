@@ -28,8 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a72864-8707-4460-be63-9dc2c5aed1a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uploads/banners/5f79db849c82b93b4d3e5b15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/banners/5f7be3bef9af4efb3ff86e20.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/leoTweetsRelacion.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/leoTweetsRelacion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/obtenerBanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/obtenerBanner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

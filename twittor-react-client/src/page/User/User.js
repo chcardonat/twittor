@@ -9,13 +9,14 @@ import "./User.scss";
 
 function User(props) {
   const { match } = props;
-  const { params } = match;
   const [user, setUser] = useState(null);
+  const { params } = match;
+
+  console.log(user);
 
   useEffect(() => {
     getUserapi(params.id)
       .then((response) => {
-        console.log(response);
         setUser(response);
         if (!response) toast.error("El usuario que has visitado no existe");
       })
@@ -27,7 +28,9 @@ function User(props) {
   return (
     <BasicLayout className="user">
       <div className="user__title">
-        <h2>Carlos Cardona</h2>
+        <h2>
+          {user ? `${user.nombre} ${user.apellidos}` : "Este usuario no existe"}
+        </h2>
       </div>
       <div>
         <h2>Banner Usuario</h2>
