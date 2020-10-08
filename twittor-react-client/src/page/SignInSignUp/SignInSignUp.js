@@ -33,7 +33,7 @@ export default function SignInsignUp(props) {
           />
         </Row>
       </Container>
-      <BasicModal show={showModal} setshow={setShowModal}>
+      <BasicModal show={showModal} setShow={setShowModal}>
         {contentModal}
       </BasicModal>
     </>
