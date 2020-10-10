@@ -28,23 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a72864-8707-4460-be63-9dc2c5aed1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-no-found.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/date-birth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/avatars/5f7be3bef9af4efb3ff86e20.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/usuario.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/usuario.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +66,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -163,34 +149,38 @@
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599975289928" />
     <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601132353255" />
-    <state width="1875" height="280" key="GridCell.Tab.0.bottom" timestamp="1602175561373">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1602276296727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1321" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
     <state width="1875" height="280" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
+    <state width="1321" height="195" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884703" />
     <state width="660" height="179" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602175561373" />
-    <state width="1875" height="280" key="GridCell.Tab.0.center" timestamp="1602175561373">
+    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
+    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1602276296727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1321" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
     <state width="1875" height="280" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
+    <state width="1321" height="195" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884702" />
     <state width="660" height="179" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="280" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602175561373" />
-    <state width="1875" height="280" key="GridCell.Tab.0.left" timestamp="1602175561372">
+    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
+    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1602276296727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1321" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
     <state width="1875" height="280" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
+    <state width="1321" height="195" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884702" />
     <state width="660" height="179" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="280" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602175561372" />
-    <state width="1875" height="280" key="GridCell.Tab.0.right" timestamp="1602175561373">
+    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1602276296727">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1321" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
     <state width="1875" height="280" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
+    <state width="1321" height="195" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884703" />
     <state width="660" height="179" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="280" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602175561373" />
+    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
     <state x="183" y="8" key="SettingsEditor" timestamp="1601126102083">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
