@@ -24,3 +24,31 @@ export function getUserapi(id) {
       return err;
     });
 }
+
+export function uploadBannerApi(file) {
+  const url = `${API_HOST}/subirBanner`;
+
+  const formData = new FormData();
+  formData.append("banner", file);
+  console.log(formData);
+
+  const params = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${getTokenApi()}`,
+    },
+    body: file,
+  };
+
+  return fetch(url, params)
+    .then((response) => {
+      return response.json();
+    })
+    .then((result) => {
+      return result;
+    })
+    .catch((err) => {
+      return err;
+    });
+}
