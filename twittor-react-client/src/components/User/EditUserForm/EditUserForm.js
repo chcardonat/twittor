@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { Form, Button, Row, Col } from "react-bootstrap";
+import { Form, Button, Row, Col, Spinner } from "react-bootstrap";
 import DatePicker from "react-datepicker";
 import es from "date-fns/locale/es";
 import { useDropzone } from "react-dropzone";
@@ -7,6 +7,8 @@ import { toast } from "react-toastify";
 import { API_HOST } from "../../../utils/constant";
 import { Camara } from "../../../utils/icons";
 import { uploadBannerApi } from "../../../api/user";
+import { uploadAvatarApi } from "../../../api/user";
+import { updateInfoApi } from "../../../api/user";
 
 import "./EditUserForm.scss";
 
@@ -23,7 +25,9 @@ export default function EditUserForm(props) {
   );
 
   const [avatarFile, setAvatarFile] = useState(null);
+  const [loading, setLoading] = useState(false);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const onDropBanner = useCallback((acceptedFile) => {
     const file = acceptedFile[0];
     setBannerUrl(URL.createObjectURL(file));
@@ -62,17 +66,32 @@ export default function EditUserForm(props) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    console.log("Editando usuario...");
-    // console.log(formData);
-    // console.log(bannerFile);
-    // console.log(avatarFile);
+    setLoading(true);
+
     if (bannerFile) {
-      uploadBannerApi(bannerFile).catch(() => {
+      await uploadBannerApi(bannerFile).catch(() => {
         toast.error("Error al subir el nuevo banner");
       });
     }
+
+    if (avatarFile) {
+      await uploadAvatarApi(avatarFile).catch(() => {
+        toast.error("Error al subir el nuevo banner");
+      });
+    }
+
+    await updateInfoApi(formData)
+      .then(() => {
+        setShowModal(false);
+      })
+      .catch(() => {
+        toast.error("Error al actualizar los datos");
+      });
+
+    setLoading(false);
+    window.location.reload();
   };
   return (
     <div className="edit-user-form">
@@ -149,7 +168,7 @@ export default function EditUserForm(props) {
         </Form.Group>
 
         <Button className="btn-submit" variant="primary" type="submit">
-          Actualizar
+          {loading && <Spinner animation="border" size="sm" />} Actualizar
         </Button>
       </Form>
     </div>
