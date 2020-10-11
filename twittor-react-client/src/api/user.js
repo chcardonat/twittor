@@ -30,7 +30,7 @@ export function uploadBannerApi(file) {
 
   const formData = new FormData();
   formData.append("banner", file);
-  console.log(formData);
+  
 
   const params = {
     method: "POST",
@@ -58,7 +58,7 @@ export function uploadAvatarApi(file) {
 
   const formData = new FormData();
   formData.append("avatar", file);
-  console.log(formData);
+
 
   const params = {
     method: "POST",
