@@ -32,7 +32,6 @@ export default function EditUserForm(props) {
     const file = acceptedFile[0];
     setBannerUrl(URL.createObjectURL(file));
     setBannerFile(file);
-    console.log(acceptedFile);
   });
 
   const {
