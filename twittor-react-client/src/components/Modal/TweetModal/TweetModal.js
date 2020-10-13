@@ -1,17 +1,32 @@
 import React, {useState} from "react";
 import {Modal, Form, Button} from "react-bootstrap";
+import classNames from "classnames";
+import {toast} from "react-toastify"
 import {Close} from "../../../utils/icons";
+import {addTweetApi} from "../../../api/tweet";
 
 import "./TweetModal.scss";
 
 export default function TweetModal(props) {
     const {show, setShow} = props;
-    const onSubmit = () =>{
-        console.log("Enviando Tweet");
+    const [message, setMessage] = useState("");
+    const maxLength = 280;
+    const onSubmit = (e) =>{
+        e.preventDefault();
+        if(message.length >0 && message.length <= maxLength){
+            addTweetApi(message)
+            .then(response => {
+                if(response?.code >= 200 && response?.code < 300){
+                    toast.success(response.message);
+                    setShow(false);
+                    window.location.reload()
+                }
+            })
+            .catch(() => {
+                toast.warning("Error al enviar el tweet, inténtelo más tarde")
+            })
+        }
     };
-
-
-
 
     return (
         <Modal 
@@ -28,8 +43,11 @@ export default function TweetModal(props) {
             </Modal.Header>
             <Modal.Body>
                 <Form onSubmit={onSubmit}>
-                    <Form.Control as="textarea" row="6" placeholder="¿Qué está pensando?" />
-                    <Button type="submit">
+                    <Form.Control as="textarea" rows="6" placeholder="¿Qué está pensando?" onChange={(e) => setMessage(e.target.value)}  />
+                    <span className={classNames("count", {error: message.length > maxLength,})}>
+                        {message.length}
+                    </span>
+                    <Button type="submit" disabled={message.length > maxLength || message.length < 1}>
                         Twittoar
                     </Button>
                 </Form>
