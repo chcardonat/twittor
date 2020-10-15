@@ -1,7 +1,7 @@
 import Home from "../page/Home";
 import Error404 from "../page/Error404";
 import User from "../page/User";
-import Users from "../page/Users";  
+import Users from "../page/Users";
 
 export default [
   {

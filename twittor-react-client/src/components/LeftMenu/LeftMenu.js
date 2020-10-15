@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -42,12 +42,8 @@ export default function LeftMenu(props) {
         <FontAwesomeIcon icon={faPowerOff} /> Cerrar sesión
       </Link>
 
-      <Button onClick={
-        () => setShowModal(true)
-      }>Twittoar</Button>
-      <TweetModal show={showModal} setShow={setShowModal}/>
-
-
+      <Button onClick={() => setShowModal(true)}>Twittoar</Button>
+      <TweetModal show={showModal} setShow={setShowModal} />
     </div>
   );
 }
