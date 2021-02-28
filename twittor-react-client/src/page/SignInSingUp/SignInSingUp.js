@@ -4,23 +4,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
   faUsers,
-  faComment,
+  faComment
 } from "@fortawesome/free-solid-svg-icons";
 import BasicModal from "../../components/Modal/BasicModal";
-import SignUpForm from "../../components/SignUpForm/SignUpForm";
-import LogoWhiteTwittor from "../../assets/png/logo-white.png";
+import SignUpForm from "../../components/SignUpForm";
+import SignInForm from "../../components/SignInForm";
 import LogoTwittor from "../../assets/png/logo.png";
-import SignInForm from "../../components/SigInform/SignInForm";
-import "./SignInSignUp.scss";
+import LogoWhiteTwittor from "../../assets/png/logo-white.png";
 
-export default function SignInsignUp(props) {
+import "./SignInSingUp.scss";
+
+export default function SignInSingUp(props) {
   const { setRefreshCheckLogin } = props;
   const [showModal, setShowModal] = useState(false);
   const [contentModal, setContentModal] = useState(null);
-  const openModal = (content) => {
+
+  const openModal = content => {
     setShowModal(true);
     setContentModal(content);
   };
+
   return (
     <>
       <Container className="signin-signup" fluid>
@@ -33,6 +36,7 @@ export default function SignInsignUp(props) {
           />
         </Row>
       </Container>
+
       <BasicModal show={showModal} setShow={setShowModal}>
         {contentModal}
       </BasicModal>
@@ -47,15 +51,15 @@ function LeftComponent() {
       <div>
         <h2>
           <FontAwesomeIcon icon={faSearch} />
-          Sigue lo que te interesa
+          Sigue lo que te interesa.
         </h2>
         <h2>
           <FontAwesomeIcon icon={faUsers} />
-          Entérate de que está hablando la gente
+          Entérate de qué está hablando la gente.
         </h2>
         <h2>
           <FontAwesomeIcon icon={faComment} />
-          Únete a la conversación
+          Únete a la conversación.
         </h2>
       </div>
     </Col>
@@ -64,12 +68,13 @@ function LeftComponent() {
 
 function RightComponent(props) {
   const { openModal, setShowModal, setRefreshCheckLogin } = props;
+
   return (
     <Col className="signin-signup__right" xs={6}>
       <div>
         <img src={LogoWhiteTwittor} alt="Twittor" />
-        <h2> Mira lo que está pasando en el mundo en este momento</h2>
-        <h3> Únete a Twittor hoy mismo</h3>
+        <h2>Mira lo que está pasando en el mundo en este momento</h2>
+        <h3>Únete a Twittor hot mimso.</h3>
         <Button
           variant="primary"
           onClick={() => openModal(<SignUpForm setShowModal={setShowModal} />)}
@@ -84,7 +89,7 @@ function RightComponent(props) {
             )
           }
         >
-          Iniciar Sesión
+          Iniciar sesión
         </Button>
       </div>
     </Col>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import SignInSignUp from "./page/SignInSignUp";
+import SignInSingUp from "./page/SignInSingUp";
 import { ToastContainer } from "react-toastify";
 import { AuthContext } from "./utils/contexts";
 import { isUserLogedApi } from "./api/auth";
-import Routing from "./routers/Routing";
+import Routing from "./routes/Routing";
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -23,7 +23,7 @@ export default function App() {
       {user ? (
         <Routing setRefreshCheckLogin={setRefreshCheckLogin} />
       ) : (
-        <SignInSignUp setRefreshCheckLogin={setRefreshCheckLogin} />
+        <SignInSingUp setRefreshCheckLogin={setRefreshCheckLogin} />
       )}
       <ToastContainer
         position="top-right"
@@ -32,7 +32,7 @@ export default function App() {
         newestOnTop={false}
         closeOnClick
         rtl={false}
-        pauseOnvisibilityChange
+        pauseOnVisibilityChange
         draggable
         pauseOnHover
       />

@@ -5,10 +5,12 @@ import es from "date-fns/locale/es";
 import { useDropzone } from "react-dropzone";
 import { toast } from "react-toastify";
 import { API_HOST } from "../../../utils/constant";
-import { Camara } from "../../../utils/icons";
-import { uploadBannerApi } from "../../../api/user";
-import { uploadAvatarApi } from "../../../api/user";
-import { updateInfoApi } from "../../../api/user";
+import { Camera } from "../../../utils/icons";
+import {
+  uploadBannerApi,
+  uploadAvatarApi,
+  updateInfoApi,
+} from "../../../api/user";
 
 import "./EditUserForm.scss";
 
@@ -18,12 +20,10 @@ export default function EditUserForm(props) {
   const [bannerUrl, setBannerUrl] = useState(
     user?.banner ? `${API_HOST}/obtenerBanner?id=${user.id}` : null
   );
-
   const [bannerFile, setBannerFile] = useState(null);
   const [avatarUrl, setAvatarUrl] = useState(
     user?.avatar ? `${API_HOST}/obtenerAvatar?id=${user.id}` : null
   );
-
   const [avatarFile, setAvatarFile] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -33,7 +33,6 @@ export default function EditUserForm(props) {
     setBannerUrl(URL.createObjectURL(file));
     setBannerFile(file);
   });
-
   const {
     getRootProps: getRootBannerProps,
     getInputProps: getInputBannerProps,
@@ -50,7 +49,6 @@ export default function EditUserForm(props) {
     setAvatarUrl(URL.createObjectURL(file));
     setAvatarFile(file);
   });
-
   const {
     getRootProps: getRootAvatarProps,
     getInputProps: getInputAvatarProps,
@@ -74,10 +72,9 @@ export default function EditUserForm(props) {
         toast.error("Error al subir el nuevo banner");
       });
     }
-
     if (avatarFile) {
       await uploadAvatarApi(avatarFile).catch(() => {
-        toast.error("Error al subir el nuevo banner");
+        toast.error("Error al subir el nuevo avatar");
       });
     }
 
@@ -92,6 +89,7 @@ export default function EditUserForm(props) {
     setLoading(false);
     window.location.reload();
   };
+
   return (
     <div className="edit-user-form">
       <div
@@ -99,17 +97,19 @@ export default function EditUserForm(props) {
         style={{ backgroundImage: `url('${bannerUrl}')` }}
         {...getRootBannerProps()}
       >
-        <Camara />
         <input {...getInputBannerProps()} />
+        <Camera />
       </div>
+
       <div
         className="avatar"
         style={{ backgroundImage: `url('${avatarUrl}')` }}
         {...getRootAvatarProps()}
       >
         <input {...getInputAvatarProps()} />
-        <Camara />
+        <Camera />
       </div>
+
       <Form onSubmit={onSubmit}>
         <Form.Group>
           <Row>
@@ -133,6 +133,7 @@ export default function EditUserForm(props) {
             </Col>
           </Row>
         </Form.Group>
+
         <Form.Group>
           <Form.Control
             as="textarea"
@@ -144,20 +145,20 @@ export default function EditUserForm(props) {
             onChange={onChange}
           />
         </Form.Group>
+
         <Form.Group>
           <Form.Control
-            placeholder="Sitio Web"
             type="text"
+            placeholder="Sitio web"
             name="sitioWeb"
             defaultValue={formData.sitioWeb}
             onChange={onChange}
           />
         </Form.Group>
-        <Form.Group></Form.Group>
 
         <Form.Group>
           <DatePicker
-            placeholder="Fecha de Nacimiento"
+            placeholder="Fecha de nacimiento"
             locale={es}
             selected={new Date(formData.fechaNacimiento)}
             onChange={(value) =>

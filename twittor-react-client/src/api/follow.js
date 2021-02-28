@@ -3,6 +3,7 @@ import { getTokenApi } from "./auth";
 
 export function checkFollowApi(idUser) {
   const url = `${API_HOST}/consultaRelacion?id=${idUser}`;
+
   const params = {
     headers: {
       Authorization: `Bearer ${getTokenApi()}`,
@@ -21,9 +22,9 @@ export function checkFollowApi(idUser) {
     });
 }
 
-
-export function followUserApi(idUser){
+export function followUserApi(idUser) {
   const url = `${API_HOST}/altaRelacion?id=${idUser}`;
+
   const params = {
     method: "POST",
     headers: {
@@ -43,8 +44,9 @@ export function followUserApi(idUser){
     });
 }
 
-export function unFollowUserApi(idUser){
+export function unfollowUserApi(idUser) {
   const url = `${API_HOST}/bajaRelacion?id=${idUser}`;
+
   const params = {
     method: "DELETE",
     headers: {
@@ -64,11 +66,12 @@ export function unFollowUserApi(idUser){
     });
 }
 
-export function getFollowsApi(paramsUrl){
+export function getFollowsApi(paramsUrl) {
   const url = `${API_HOST}/listaUsuarios?${paramsUrl}`;
+
   const params = {
     headers: {
-      Authorization: `Bearer ${getTokenApi()}`
+      Authorization: `Bearer ${getTokenApi()}`,
     },
   };
 

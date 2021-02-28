@@ -8,7 +8,7 @@ import BannerAvatar from "../../components/User/BannerAvatar";
 import InfoUser from "../../components/User/InfoUser";
 import ListTweets from "../../components/ListTweets";
 import { getUserApi } from "../../api/user";
-import {getUserTweetsApi} from "../../api/tweet";
+import { getUserTweetsApi } from "../../api/tweet";
 
 import "./User.scss";
 
@@ -21,12 +21,11 @@ function User(props) {
   const { params } = match;
   const loggedUser = useAuth();
 
-
   useEffect(() => {
     getUserApi(params.id)
       .then((response) => {
-        setUser(response);
         if (!response) toast.error("El usuario que has visitado no existe");
+        setUser(response);
       })
       .catch(() => {
         toast.error("El usuario que has visitado no existe");
@@ -34,29 +33,29 @@ function User(props) {
   }, [params]);
 
   useEffect(() => {
-  getUserTweetsApi(params.id, 1)
-  .then(response =>{
-    setTweets(response);
-  })
-  .catch(() => {
-    setTweets([]);
-  })
-}, [params])
-  
+    getUserTweetsApi(params.id, 1)
+      .then((response) => {
+        setTweets(response);
+      })
+      .catch(() => {
+        setTweets([]);
+      });
+  }, [params]);
+
   const moreData = () => {
     const pageTemp = page + 1;
     setLoadingTweets(true);
 
-    getUserTweetsApi(params.id, pageTemp).then(response => {
-      if(!response){
+    getUserTweetsApi(params.id, pageTemp).then((response) => {
+      if (!response) {
         setLoadingTweets(0);
       } else {
-        setTweets([...tweets,...response]);
+        setTweets([...tweets, ...response]);
         setPage(pageTemp);
         setLoadingTweets(false);
       }
-    })
-  }
+    });
+  };
 
   return (
     <BasicLayout className="user" setRefreshCheckLogin={setRefreshCheckLogin}>
@@ -72,9 +71,15 @@ function User(props) {
         {tweets && <ListTweets tweets={tweets} />}
         <Button onClick={moreData}>
           {!loadingTweets ? (
-            loadingTweets !== 0 && 'Obtener mas tweet'
+            loadingTweets !== 0 && "Obtener más Tweets"
           ) : (
-            <Spinner as="span" animation="grow" size="sm" role="status" arian-hidden="true" />
+            <Spinner
+              as="span"
+              animation="grow"
+              size="sm"
+              role="status"
+              arian-hidden="true"
+            />
           )}
         </Button>
       </div>

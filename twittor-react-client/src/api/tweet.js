@@ -1,5 +1,5 @@
 import { API_HOST } from "../utils/constant";
-import { getTokenApi } from "../api/auth";
+import { getTokenApi } from "./auth";
 
 export function addTweetApi(mensaje) {
   const url = `${API_HOST}/tweet`;
@@ -49,6 +49,7 @@ export function getUserTweetsApi(idUser, page) {
 
 export function getTweetsFollowersApi(page = 1) {
   const url = `${API_HOST}/leoTweetsSeguidores?pagina=${page}`;
+
   const params = {
     headers: {
       "Content-Type": "application/json",

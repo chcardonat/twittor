@@ -1,1 +1,1 @@
-export {default} from "./TweetModal";
+export { default } from "./TweetModal";

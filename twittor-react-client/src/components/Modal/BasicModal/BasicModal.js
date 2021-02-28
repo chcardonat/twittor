@@ -1,6 +1,7 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
-import LogoWhiteTwittor from "../../../assests/png/logo-white.png";
+import LogoWhiteTwittor from "../../../assets/png/logo-white.png";
+
 import "./BasicModal.scss";
 
 export default function BasicModal(props) {

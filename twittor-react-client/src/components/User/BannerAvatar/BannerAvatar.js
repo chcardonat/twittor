@@ -2,11 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import ConfigModal from "../../Modal/ConfigModal";
 import EditUserForm from "../../User/EditUserForm";
-import AvatarNoFound from "../../../assests/png/avatar-no-found.png";
+import AvatarNoFound from "../../../assets/png/avatar-no-found.png";
 import { API_HOST } from "../../../utils/constant";
-import {checkFollowApi} from "../../../api/follow";
-import {followUserApi} from "../../../api/follow";
-import {unFollowUserApi} from "../../../api/follow";
+import {
+  checkFollowApi,
+  followUserApi,
+  unfollowUserApi
+} from "../../../api/follow";
+
 import "./BannerAvatar.scss";
 
 export default function BannerAvatar(props) {
@@ -17,22 +20,21 @@ export default function BannerAvatar(props) {
   const bannerUrl = user?.banner
     ? `${API_HOST}/obtenerBanner?id=${user.id}`
     : null;
-
   const avatarUrl = user?.avatar
     ? `${API_HOST}/obtenerAvatar?id=${user.id}`
     : AvatarNoFound;
 
   useEffect(() => {
-    if (user){
+    if (user) {
       checkFollowApi(user?.id).then(response => {
-        if(response?.status) {
+        if (response?.status) {
           setFollowing(true);
         } else {
           setFollowing(false);
         }
       });
     }
-   setReloadFollow(false);
+    setReloadFollow(false);
   }, [user, reloadFollow]);
 
   const onFollow = () => {
@@ -41,8 +43,8 @@ export default function BannerAvatar(props) {
     });
   };
 
-  const onUnFollow = () => {
-    unFollowUserApi(user.id).then(() => {
+  const onUnfollow = () => {
+    unfollowUserApi(user.id).then(() => {
       setReloadFollow(true);
     });
   };
@@ -59,14 +61,18 @@ export default function BannerAvatar(props) {
       {user && (
         <div className="options">
           {loggedUser._id === user.id && (
-            <Button onClick={() => setShowModal(true)}> Editar perfil</Button>
+            <Button onClick={() => setShowModal(true)}>Editar perfil</Button>
           )}
-          
-          {loggedUser._id !== user.id && (
-            following !== null &&(
-              (following ? <Button onClick={onUnFollow} className="unFollow"><span>Siguiendo</span></Button> : <Button onClick={onFollow}>Seguir</Button> )
-            )
-          )}
+
+          {loggedUser._id !== user.id &&
+            following !== null &&
+            (following ? (
+              <Button onClick={onUnfollow} className="unfollow">
+                <span>Siguiendo</span>
+              </Button>
+            ) : (
+              <Button onClick={onFollow}>Seguir</Button>
+            ))}
         </div>
       )}
 

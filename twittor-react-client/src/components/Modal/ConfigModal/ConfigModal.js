@@ -6,6 +6,7 @@ import "./ConfigModal.scss";
 
 export default function ConfigModal(props) {
   const { show, setShow, title, children } = props;
+
   return (
     <Modal
       className="config-modal"

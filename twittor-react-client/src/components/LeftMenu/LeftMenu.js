@@ -11,7 +11,7 @@ import {
 import TweetModal from "../Modal/TweetModal";
 import { logoutApi } from "../../api/auth";
 import useAuth from "../../hooks/useAuth";
-import LogoWhite from "../../assests/png/logo-white.png";
+import LogoWhite from "../../assets/png/logo-white.png";
 
 import "./LeftMenu.scss";
 
@@ -43,6 +43,7 @@ export default function LeftMenu(props) {
       </Link>
 
       <Button onClick={() => setShowModal(true)}>Twittoar</Button>
+
       <TweetModal show={showModal} setShow={setShowModal} />
     </div>
   );

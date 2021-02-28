@@ -28,8 +28,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a72864-8707-4460-be63-9dc2c5aed1a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/avatar-no-found.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/avatar-v1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/avatar-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/banner-v1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/banner-v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/error-404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/png/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/svg/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/svg/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/svg/date-birth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/assets/svg/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignInForm/SignInForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignInForm/SignInForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignInForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/page/SignInSingUp/SignInSingUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/page/SignInSingUp/SignInSingUp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/page/SignInSingUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/routes/Routing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twittor-react-client/src/routes/configRouting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/usuario.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/usuario.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/api/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/api/follow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/api/tweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/api/tweet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-no-found.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-v1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/avatar-v2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/banner-v1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/banner-v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/error-404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/png/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/camara.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/date-birth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/assests/svg/location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/LeftMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/LeftMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/LeftMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/LeftMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/LeftMenu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/ListTweets.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/ListTweets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/ListTweets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/ListTweets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListTweets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/ListUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/ListUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/ListUsers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/ListUsers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/ListUsers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/BasicModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/BasicModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/BasicModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/BasicModal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/BasicModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/ConfigModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/ConfigModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/ConfigModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/ConfigModal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/ConfigModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/TweetModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/TweetModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/TweetModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/TweetModal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/Modal/TweetModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/SignUpForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/SignUpForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/SignUpForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/SignUpForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/SignUpForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/BannerAvatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/BannerAvatar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/EditUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/EditUserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/EditUserForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/EditUserForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/EditUserForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/InfoUser.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/components/User/InfoUser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/hooks/useAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/hooks/useAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/BasicLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/BasicLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/BasicLayout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/layout/BasicLayout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/Error404.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/Error404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/Error404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/Error404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Error404/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/SignInSignUp/SignInSignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/SignInSignUp/SignInSignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/User/User.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/User/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Users/Users.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Users/Users.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/page/Users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/page/Users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/routers/configRouting.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/routers/configRouting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/scss/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/utils/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/utils/contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/contexts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/utils/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/utils/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twittor-react-client/src/utils/validations.js" beforeDir="false" afterPath="$PROJECT_DIR$/twittor-react-client/src/utils/validations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/avatars/5f7f99a5e1bbd44feeb21e66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/avatars/5f7f99a5e1bbd44feeb21e66.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/banners/5f7f99a5e1bbd44feeb21e66.png" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/banners/5f7f99a5e1bbd44feeb21e66.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,12 +158,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -121,75 +220,5 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="474" y="196" key="#Go_Modules" timestamp="1599821236302">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="474" y="196" key="#Go_Modules/0.0.1366.728@0.0.1366.728" timestamp="1599821236302" />
-    <state x="-1335" y="54" key="#Inspections" timestamp="1601779583675">
-      <screen x="-1920" y="-148" width="1920" height="1050" />
-    </state>
-    <state x="-1335" y="54" key="#Inspections/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601779583675" />
-    <state x="437" y="192" key="#Notifications" timestamp="1601126053081">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="437" y="192" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1601126053081" />
-    <state x="-1309" y="90" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601774387803">
-      <screen x="-1920" y="-148" width="1920" height="1050" />
-    </state>
-    <state x="435" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599916380424" />
-    <state x="-1309" y="90" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601774387803" />
-    <state x="362" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600482751290">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="362" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1600482751290" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1601132353255">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599975289928" />
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601132353255" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom" timestamp="1602276296727">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1321" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
-    <state width="1875" height="280" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
-    <state width="1321" height="195" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884703" />
-    <state width="660" height="179" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center" timestamp="1602276296727">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1321" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
-    <state width="1875" height="280" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
-    <state width="1321" height="195" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884702" />
-    <state width="660" height="179" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="195" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left" timestamp="1602276296727">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1321" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
-    <state width="1875" height="280" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
-    <state width="1321" height="195" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884702" />
-    <state width="660" height="179" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="195" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right" timestamp="1602276296727">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1321" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599969723360" />
-    <state width="1875" height="280" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601818915215" />
-    <state width="1321" height="195" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-148.1920.1050@0.0.1366.738" timestamp="1602197884703" />
-    <state width="660" height="179" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601298292781" />
-    <state width="1875" height="195" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602276296727" />
-    <state x="183" y="8" key="SettingsEditor" timestamp="1601126102083">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="183" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599975248500" />
-    <state x="183" y="8" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601126102083" />
-    <state x="-1434" y="-64" width="672" height="678" key="search.everywhere.popup" timestamp="1601817382083">
-      <screen x="-1920" y="-148" width="1920" height="1050" />
-    </state>
-    <state x="-1434" y="-64" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1920.-148.1920.1050@-1920.-148.1920.1050" timestamp="1601817382083" />
-    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1600990549007" />
   </component>
 </project>

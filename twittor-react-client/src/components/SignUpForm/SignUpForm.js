@@ -12,11 +12,11 @@ export default function SignUpForm(props) {
   const [formData, setFormData] = useState(initialFormValue());
   const [signUpLoading, setSignUpLoading] = useState(false);
 
-  const onSubmit = (e) => {
+  const onSubmit = e => {
     e.preventDefault();
 
     let validCount = 0;
-    values(formData).some((value) => {
+    values(formData).some(value => {
       value && validCount++;
       return null;
     });
@@ -33,7 +33,7 @@ export default function SignUpForm(props) {
       } else {
         setSignUpLoading(true);
         signUpApi(formData)
-          .then((response) => {
+          .then(response => {
             if (response.code) {
               toast.warning(response.message);
             } else {
@@ -52,7 +52,7 @@ export default function SignUpForm(props) {
     }
   };
 
-  const onChange = (e) => {
+  const onChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -123,6 +123,6 @@ function initialFormValue() {
     apellidos: "",
     email: "",
     password: "",
-    repeatPassword: "",
+    repeatPassword: ""
   };
 }

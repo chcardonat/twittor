@@ -7,20 +7,20 @@ export function getUserApi(id) {
   const params = {
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${getTokenApi()}`,
-    },
+      Authorization: `Bearer ${getTokenApi()}`
+    }
   };
 
   return fetch(url, params)
-    .then((response) => {
+    .then(response => {
       // eslint-disable-next-line no-throw-literal
       if (response.status >= 400) throw null;
       return response.json();
     })
-    .then((result) => {
+    .then(result => {
       return result;
     })
-    .catch((err) => {
+    .catch(err => {
       return err;
     });
 }
@@ -79,19 +79,20 @@ export function uploadAvatarApi(file) {
 
 export function updateInfoApi(data) {
   const url = `${API_HOST}/modificarPerfil`;
+
   const params = {
     method: "PUT",
     headers: {
-      Authorization: `Bearer ${getTokenApi()}`,
+      Authorization: `Bearer ${getTokenApi()}`
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(data)
   };
 
   return fetch(url, params)
-    .then((response) => {
+    .then(response => {
       return response;
     })
-    .catch((err) => {
+    .catch(err => {
       return err;
     });
 }
